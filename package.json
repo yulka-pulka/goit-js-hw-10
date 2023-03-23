@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-10",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.2% and not dead",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulka-pulka/goit-js-hw-10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yulka-pulka/goit-js-hw-10/issues"
+  },
+  "homepage": "https://github.com/yulka-pulka/goit-js-hw-10#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.2.6"
+  }
+}
